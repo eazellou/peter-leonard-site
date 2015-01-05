@@ -1,0 +1,71 @@
+
+/*phone*/
+#foliotitle {
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#folionav {
+	float: left;
+	clear: both;
+	width: 100%;
+	height: 26px;
+	text-align: left;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 10px;	
+}
+#folionav a {
+	color: #d4f0ff;
+	text-decoration: none;
+	padding: 5px;
+	font-size: .9em;
+}
+#folionav a:visited {
+	color: #drf0ff;
+	font-decoration: none;
+	padding: 5px;
+	font-size: .9em;
+}
+#folionav a:hover {
+	color: #99adb8;
+	font-decoration: none;
+	padding: 5px;
+	font-size: .9em;
+	cursor: pointer;
+}
+
+/*tablet */
+@media only screen and (min-width: 481px) {
+#foliotitle {
+	float: left;
+	clear: both;
+	width: 100%;
+}
+#folionav {
+	float: left;
+	clear: both;
+	width: 100%;
+	font-size: 1.2em;
+	text-align: left;
+	margin-top: 10px;
+}
+/*desktop*/
+@media only screen and (min-width: 769px) {
+#foliotitle {
+	float: left;
+	clear: both;
+	width: 30%;
+}
+#folionav {
+	float: right;
+	clear: none;
+	width: 70%;
+	font-size: 1.5em;
+	text-align: right;
+	margin-top: 40px;
+}
+
+}
